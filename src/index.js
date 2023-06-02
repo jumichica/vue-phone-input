@@ -1,5 +1,5 @@
 import utils, { defaultOptions } from './utils';
-import VueTelInput from './components/vue-tel-input.vue';
+import VueTelInput from './components/vue-phone-input.vue';
 
 export { VueTelInput };
 

@@ -1,24 +1,24 @@
 {
-  "name": "vue-tel-input",
-  "version": "8.1.1",
-  "description": "International Telephone Input with Vue",
-  "author": "Steven Dao <iamstevendao@gmail.com>",
+  "name": "vue-phone-input",
+  "version": "0.0.1",
+  "description": "International phone input with Vue and country names in spanish, english and french.",
+  "author": "Jumíchica <jumichica@gmail.com>",
   "license": "MIT",
-  "homepage": "https://vue-tel-input.iamstevendao.com",
+  "homepage": "https://jumichica.com",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iamstevendao/vue-tel-input.git"
+    "url": "git+https://github.com/jumichica/vue-phone-input.git"
   },
   "exports": {
     ".": {
-      "import": "./dist/vue-tel-input.js",
-      "require": "./dist/vue-tel-input.umd.cjs"
+      "import": "./dist/vue-phone-input.js",
+      "require": "./dist/vue-phone-input.umd.cjs"
     },
-    "./vue-tel-input.css": "./dist/vue-tel-input.css"
+    "./vue-tel-input.css": "./dist/vue-phone-input.css"
   },
-  "main": "./dist/vue-tel-input.umd.cjs",
-  "module": "./dist/vue-tel-input.js",
+  "main": "./dist/vue-phone-input.umd.cjs",
+  "module": "./dist/vue-phone-input.js",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vue-tsc && vite build",
@@ -53,5 +53,11 @@
     "telephone input",
     "input",
     "international phone"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/jumichica/vue-phone-input/issues"
+  },
+  "directories": {
+    "doc": "docs"
+  }
 }

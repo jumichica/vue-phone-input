@@ -2,7 +2,7 @@
 
 ## @input (number: String, phoneObject: Object)
 
-> in vue-tel-input@next (Vue 3), use `@on-input`
+> in vue-phone-input@next (Vue 3), use `@on-input`
 
 Fires when the input changes
 

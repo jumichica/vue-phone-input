@@ -108,7 +108,7 @@ function getDefault(key) {
 // );
 
 export default {
-  name: 'VueTelInput',
+  name: 'VuePhoneInput',
   directives: {
     clickOutside,
   },
